@@ -1,0 +1,42 @@
+/*
+Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+*/
+@CHARSET "UTF-8";
+
+#showLess,#showMore {
+	border-bottom: 1px solid transparent;
+	margin-bottom: 2px;
+	text-decoration: none;
+	color: #189de1;
+	float: right;
+	text-decoration: none;
+}
+
+#showLess:hover,#showMore:hover {
+	border-bottom: 1px dotted #189de1;
+}
+
+#moreText {
+	display: none;
+}
+
+.loggerBox {
+	background: none repeat scroll 0 0 #f3f3f3;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 5px;
+	width: 350px;
+	min-height: 100px;
+	position: fixed;
+	right: 2%;
+	top: 10%;
+	position: fixed;
+	width: 350px;
+	min-height: 100px;
+	position: fixed;
+}
+
+.codeComment {
+	color: #3F7F47;
+}
