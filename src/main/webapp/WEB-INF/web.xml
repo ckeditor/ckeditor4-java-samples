@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
-	<display-name>CKEditor for Java - Sample Web Application</display-name>
-	<description>
-		CKEditor for Java. The server-side integration for
-		CKEditor.
-	</description>
+    <display-name>CKEditor for Java - Sample Web Application</display-name>
+    <description>
+        CKEditor for Java. The server-side integration for
+        CKEditor.
+    </description>
 
-	<servlet>
-		<description>Sample servlet responsible for configuring and displaying
-			JSPs with CKEditor instances.
-		</description>
-		<servlet-name>DispatchServlet</servlet-name>
-		<servlet-class>com.ckeditor.web.DispatchServlet</servlet-class>
-	</servlet>
-	<servlet>
-		<description>Sample servlet responsible for handling submitted data.
-		</description>
-		<servlet-name>SubmitServlet</servlet-name>
-		<servlet-class>com.ckeditor.web.SubmitServlet</servlet-class>
-	</servlet>
+    <servlet>
+        <description>Sample servlet responsible for configuring and displaying
+            JSP with CKEditor instances.
+        </description>
+        <servlet-name>DispatchServlet</servlet-name>
+        <servlet-class>com.ckeditor.web.DispatchServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>Sample servlet responsible for handling submitted data.
+        </description>
+        <servlet-name>SubmitServlet</servlet-name>
+        <servlet-class>com.ckeditor.web.SubmitServlet</servlet-class>
+    </servlet>
 
-	<servlet-mapping>
-		<servlet-name>DispatchServlet</servlet-name>
-		<url-pattern>*.sample</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>SubmitServlet</servlet-name>		
-		<url-pattern>/samples/assets/posteddata.result</url-pattern>
-	</servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DispatchServlet</servlet-name>
+        <url-pattern>*.sample</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SubmitServlet</servlet-name>		
+        <url-pattern>/samples/assets/posteddata.result</url-pattern>
+    </servlet-mapping>
 
-	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
-	</welcome-file-list>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
