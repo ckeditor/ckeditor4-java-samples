@@ -1,4 +1,0 @@
-[submodule "src/main/webapp/ckeditor"]
-	path = src/main/webapp/ckeditor
-	url = https://github.com/ckeditor/ckeditor-releases.git
-	branch = stable
