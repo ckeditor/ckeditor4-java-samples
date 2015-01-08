@@ -8,7 +8,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 <html>
 <head>
 <meta charset="utf-8">
-<title>Massive inline editing &mdash; CKEditor Sample</title>
+<title>Massive Inline Editing &mdash; CKEditor Sample</title>
 <link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/ckeditor/samples/sample.css" />
 <link type="text/css" rel="stylesheet" href="../styles/sampleapp.css" />
 <script type="text/javascript" src="../scripts/sampleapp.js"></script>
@@ -134,22 +134,22 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 <body>
 	<div>
 		<h1 class="samples">
-			<a href="index.jsp">CKEditor Samples</a> &raquo; Create Inline editors on editable elements using JSP tag
+			<a href="index.jsp">CKEditor Samples</a> &raquo; Create Inline Editors on Editable Elements Using a JSP Tag
 		</h1>
 		<div class="description">
 			<p>
-				This sample demonstrates how to create multiple inline CKEditor instances, on all editable elements available on JSP, <a
+				This sample demonstrates how to create inline CKEditor instances on all editable elements available on JSP <a
 					href="http://link-to-docs">using Java code</a>.
 			</p>
 			<div>
 				<a id="showMore" href="javascript:SAMPLE_APP.showHide();">Show More &#x025BE;</a>
 			</div>
 			<div id="moreText">
-				<p>To create inline editor instances place the following call at any point after all editable elements:</p>
+				<p>To create inline editor instances, place the following call at any point after all editable elements on the page:</p>
 				<pre class="samples">&lt;ckeditor:inlineAll basePath="../ckeditor/" /&gt;</pre>
 				<p>
-					For more information on this tag and its attributes, please refer to <a href="http://link-to-docs">documentation</a> and
-					check out the source code of this sample. <a id="showLess" href="javascript:SAMPLE_APP.showHide();">Show Less &#x025B4;</a>
+					For more information about this tag and its attributes please refer to the <a href="http://link-to-docs">CKEditor for Java documentation</a>
+					and check the Java source code of this sample in your IDE. <a id="showLess" href="javascript:SAMPLE_APP.showHide();">Show Less &#x025B4;</a>
 				</p>
 			</div>
 		</div>

@@ -10,7 +10,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 <html>
 <head>
 <meta charset="utf-8">
-<title>Massive inline editing &mdash; CKEditor Sample</title>
+<title>Massive Inline Editing &mdash; CKEditor Sample</title>
 <link type="text/css" rel="stylesheet" href="${pageContext.servletContext.contextPath}/ckeditor/samples/sample.css" />
 <link type="text/css" rel="stylesheet" href="../styles/sampleapp.css" />
 <script type="text/javascript" src="../scripts/sampleapp.js"></script>
@@ -136,32 +136,31 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 <body>
 	<div>
 		<h1 class="samples">
-			<a href="index.jsp">CKEditor Samples</a> &raquo; Create Inline editor instances on editable elements using CKEditor Java Object
+			<a href="index.jsp">CKEditor Samples</a> &raquo; Create Inline Editors on Editable Elements Using the CKEditor for Java Object
 		</h1>
 		<div class="description">
 			<p>
-				This sample demonstrates how to create multiple inline CKEditor instances, on all editable elements available on JSP, <a
-					href="http://link-to-docs">using Java code</a>.
+				This sample demonstrates how to create inline CKEditor instances on all editable elements available on JSP <a href="http://link-to-docs">using the CKEditor for Java object</a>.
 			</p>
 			<div>
 				<a id="showMore" href="javascript:SAMPLE_APP.showHide();">Show More &#x025BE;</a>
 			</div>
 			<div id="moreText">
-				<p>To create inline editor instances place the following call at any point after all editable elements:</p>
+				<p>To create inline editor instances, place the following call at any point after all editable elements on the page:</p>
 				<pre class="samples">
 &lt;%				
 	CKEditor ckeditor = new CKEditor( request, "../ckeditor", CKEditor.Methods.Multi.INLINE_ALL );
 	out.println( ckeditor.createHtml() );
 %&gt;</pre>
 				<p>
-					For more information on CKEditor Java Object, its constructors and methods, please refer to <a href="http://link-to-docs">online
-						documentation</a>, <a href="http://link-to-java-docs">Java Docs</a> and check out the source code of this sample.
+					For more information about the CKEditor for Java object, its constructors and methods, please refer to the
+					<a href="http://link-to-docs">CKEditor for Java documentation</a> and the <a href="http://link-to-java-docs">API reference</a> or check the Java source code of this sample in your IDE.
 				</p>
 				<p>
-					<strong>Please Note</strong> that since JSP 1.2 scriplets are discouraged and you should avoid them whenever tag libraries or
-					Expression Language (EL) provide equivalent functionality. This makes pages easier to read, maintain and helps to separate
-					business logic from presentation logic what is more than desired in Model View Controller (MVC) based frameworks. <a
-						id="showLess" href="javascript:SAMPLE_APP.showHide();">Show Less &#x025B4;</a>
+					<strong>Important note:</strong> Since JSP 1.2 scriptlets are discouraged and you should avoid them whenever tag libraries or
+					Expression Language (EL) provide equivalent functionality. This makes pages easier to read and maintain. It also helps to separate
+					business logic from presentation logic, which is desired in Model View Controller (MVC) based frameworks. <a
+					    id="showLess" href="javascript:SAMPLE_APP.showHide();">Show Less &#x025B4;</a>
 				</p>
 			</div>
 		</div>

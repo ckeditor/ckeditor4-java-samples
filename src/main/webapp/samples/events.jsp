@@ -23,8 +23,11 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 		<p>
 			This sample shows how to attach <a href="http://link-to-docs">events</a> and <a href="http://link-to-docs">global events</a> to
 			CKEditor instances. Events need to be assigned to each editor separately while in case of global events, it is enough to
-			assign them to only one instance and all editors will be affected. Attaching both types of events is possible for the CKEditor
-			Object and the CKEditor Tag. It can be done with Expression Language (EL) or with scriptlets, although the second approach is
+			assign them to only one instance and all editors will be affected.
+		</p>
+		<p>
+			Attaching both types of events is possible for both the CKEditor for Java object and the CKEditor for Java tag.
+			It can be done with Expression Language (EL) or with scriptlets, although the second approach is
 			discouraged.
 		</p>
 		<p>
@@ -40,16 +43,17 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 		<div id="moreText">
 			<p>The code snippet below shows how to assign events to the editor:</p>
 			<pre class="samples">
-<span class="codeComment">// Sample code used in the Servlet class</span>			
+<span class="codeComment">// Sample code used in the Servlet class.</span>			
 GlobalEventHandler globalEventHandler = new GlobalEventHandler( );
 globalEventHandler.addEventHandler( "dialogDefinition", "function ( evt ) {"
 						+ "alert( \"Loading dialog window: \" + evt.data.name ); }" );
 request.setAttribute( "cke_global_events", globalEventHandler );
-<span class="codeComment">// Call on JSP</span>			
+
+<span class="codeComment">// Call on JSP.</span>			
 &lt;ckeditor:replace replace="editor1" basePath="../ckeditor/" globalEvents="&#x00024;{cke_global_events}" /&gt;
 
 
-<span class="codeComment">// Java code used directly on JSP</span>
+<span class="codeComment">// Java code used directly on JSP.</span>
 &lt;%	
 EventHandler eventHandler = new EventHandler( );
 eventHandler.addEventHandler( "instanceReady", "function ( evt ) { alert( \"Loaded: \" + evt.editor.name ); }" );
@@ -59,8 +63,8 @@ editor.setEvents( eventHandler );
 out.println( editor.createHtml() );
 %&gt;</pre>
 			<p>
-				For more information about both event types refer to the <a href="http://link-to-docs">documentation</a> and check
-				the source code of this sample as well as the code inside the <code>DispatchServlet.java</code> file. <a id="showLess"
+				For more information about both event types, please refer to the <a href="http://link-to-docs">CKEditor for Java documentation</a> and
+				check the Java source code of this sample as well as the code inside the <code>DispatchServlet.java</code> file in your IDE. <a id="showLess"
 					href="javascript:SAMPLE_APP.showHide();">Show Less &#x025B4;</a>
 			</p>
 		</div>

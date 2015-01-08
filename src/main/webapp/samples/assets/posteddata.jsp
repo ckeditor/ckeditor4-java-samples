@@ -13,7 +13,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 </head>
 <body>
 	<h1 class="samples">
-		<a href="${pageContext.servletContext.contextPath}/samples/index.jsp">CKEditor Samples</a> &raquo; CKEditor Posted Data
+		<a href="${pageContext.servletContext.contextPath}/samples/index.jsp">CKEditor Samples</a> &raquo; Posted CKEditor Data
 	</h1>
 
 	<table border=1 id="outputSample">
