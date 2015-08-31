@@ -105,7 +105,7 @@ public class DispatchServlet extends HttpServlet {
             CKEditor ckeditor = new CKEditor(request, "../ckeditor/",
                     CKEditor.Methods.Single.REPLACE, "editor1",
                     ConfigurationProvider.getFirstEditorConfig());
-            request.setAttribute("cke_instance", ckeditor);
+            request.setAttribute("cke_instance", ckeditor.createHtml());
 
         } else if (requestFile.equals("events.jsp")) {
             request.setAttribute("cke_global_events",
