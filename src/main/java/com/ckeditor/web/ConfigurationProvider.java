@@ -125,7 +125,7 @@ public class ConfigurationProvider {
      * @return a string representing the initial HTML value for CKEditor.
      */
     public static String getInitValue() {
-        return "&lt;p&gt;Sample value for &lt;strong&gt;CKEditor Java&lt;/strong&gt; Insert Tag&lt;/p&gt;";
+    	return "<p>Sample value for <strong>CKEditor Java</strong> Insert Tag</p>";
     }
 
     /**
