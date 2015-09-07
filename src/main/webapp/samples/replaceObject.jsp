@@ -76,8 +76,8 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 
 	<%
 		CKEditor ckeditor = new CKEditor(request, "../ckeditor",
-				CKEditor.Methods.Single.REPLACE, "editor1",
-				ConfigurationProvider.getThirdEditorConfig());
+		CKEditor.Methods.Single.REPLACE, "editor1",
+		ConfigurationProvider.getThirdEditorConfig());
 		out.println(ckeditor.createHtml());
 	%>
 

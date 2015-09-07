@@ -75,12 +75,12 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 			<%
 				String value = "<p>Sample value for the <strong>CKEditor for Java</strong> Insert object.</p>";
 
-							HashMap<String, String> textareaAttributes = new HashMap<String, String>();
-							textareaAttributes.put( "rows", "8" );
-							textareaAttributes.put( "cols", "20" );		
-									
-							CKEditor ckeditor = new CKEditor(request, "../ckeditor", "editor1",	value, textareaAttributes, ConfigurationProvider.getThirdEditorConfig());
-							out.println(ckeditor.createHtml());
+				HashMap<String, String> textareaAttributes = new HashMap<String, String>();
+				textareaAttributes.put( "rows", "8" );
+				textareaAttributes.put( "cols", "20" );
+
+				CKEditor ckeditor = new CKEditor(request, "../ckeditor", "editor1",	value, textareaAttributes, ConfigurationProvider.getThirdEditorConfig());
+				out.println(ckeditor.createHtml());
 			%>
 
 		</p>

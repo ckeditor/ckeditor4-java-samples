@@ -272,7 +272,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 			request.setAttribute("ckeditor_global_config", configuration);
 
 			CKEditor ckeditor = new CKEditor(request, "../ckeditor",
-					CKEditor.Methods.Multi.INLINE_ALL);
+			CKEditor.Methods.Multi.INLINE_ALL);
 			out.println(ckeditor.createHtml());
 		%>
 

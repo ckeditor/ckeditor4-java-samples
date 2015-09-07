@@ -79,8 +79,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 			configuration.addConfigValue("uiColor", "#AADC6E");
 
 			CKEditor ckeditor = new CKEditor(request, "../ckeditor", "editor1",
-					value, ConfigurationProvider.getTextareaAttrs(), true,
-					configuration);
+			value, ConfigurationProvider.getTextareaAttrs(), true, configuration);
 			out.println(ckeditor.createHtml());
 		%>
 

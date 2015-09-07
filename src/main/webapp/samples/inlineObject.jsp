@@ -161,7 +161,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 
 	<%
 		CKEditor ckeditor = new CKEditor(request, "../ckeditor",
-				CKEditor.Methods.Single.INLINE, "editable");
+		CKEditor.Methods.Single.INLINE, "editable");
 		out.println(ckeditor.createHtml());
 	%>
 

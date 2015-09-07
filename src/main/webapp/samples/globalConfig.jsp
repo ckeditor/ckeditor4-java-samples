@@ -73,7 +73,7 @@ request.setAttribute( "ckeditor_global_config", conf );</pre>
 
 	<%
 		CKEditor ckeditor = new CKEditor(request, "",
-				CKEditor.Methods.Single.REPLACE, "editor2");
+		CKEditor.Methods.Single.REPLACE, "editor2");
 		ckeditor.setInitialized(true);
 		out.println(ckeditor.createHtml());
 	%>
