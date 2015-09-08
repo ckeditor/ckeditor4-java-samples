@@ -1,19 +1,19 @@
-CKEditor for Java Sample Web Application
+CKEditor Java - Samples
 ===================
 
 **Important Note**
 
 The CKEditor for Java code is still **work in progress**. Its official release will be announced on http://ckeditor.com.
 
-CKEditor for Java Web Application shows how CKEditor Java integration can be used inside web application. 
+This project shows how CKEditor for Java integration can be used inside a web application. 
 
 ## Getting the code
 
 To use the code you need to clone it into local directory of your choice, using below command:
 
-    git clone https://github.com/ckeditor/ckeditor-java-webapp
+    git clone https://github.com/ckeditor/ckeditor-java-samples
 
-CKEditor for Java Web Application uses CKEditor as a submodule. After executing the above command you will get `ckeditor` directory (it contains the submodule) inside web application but it will not have any files within. This is the default Git behaviour. To get all the data from CKEditor project you need to initialize and update the submodule first:
+CKEditor for Java Web Application uses CKEditor as a submodule. After cloning the repository you also need to initialize and update the CKEditor submodule:
 
     git submodule update --init --recursive
 
