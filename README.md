@@ -1,4 +1,4 @@
-CKEditor Java - Samples
+CKEditor for Java - Samples
 ===================
 
 **Important Note**
@@ -13,7 +13,7 @@ To use the code you need to clone it into local directory of your choice, using 
 
     git clone https://github.com/ckeditor/ckeditor-java-samples
 
-CKEditor for Java Web Application uses CKEditor as a submodule. After cloning the repository you also need to initialize and update the CKEditor submodule:
+After cloning the repository you also need to initialize and update the CKEditor submodule:
 
     git submodule update --init --recursive
 
