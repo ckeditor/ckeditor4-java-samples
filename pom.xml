@@ -31,7 +31,12 @@
 			<url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
 		</license>
 	</licenses>
-	<build>		
+	<scm>
+		<url>https://github.com/ckeditor/ckeditor-java-samples</url>
+		<connection>scm:git:https://github.com/ckeditor/ckeditor-java-samples</connection>
+		<developerConnection>scm:git:https://github.com/ckeditor/ckeditor-java-samples</developerConnection>
+	</scm>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
