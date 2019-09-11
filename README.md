@@ -1,11 +1,10 @@
-CKEditor for Java - Samples
-===================
+# ⚠ This repository is no longer maintained ⚠
+
+## CKEditor 4 for Java - Samples
 
 **Important Note**
 
-The CKEditor for Java code is still **work in progress**. Its official release will be announced on http://ckeditor.com.
-
-This project shows how CKEditor for Java integration can be used inside a web application. 
+This project were supposed to show how CKEditor for Java integration can be used inside a web application. It has not been completed, use it at your own risk.
 
 ## Getting the code
 
