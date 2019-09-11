@@ -6,6 +6,8 @@
 
 This project were supposed to show how CKEditor for Java integration can be used inside a web application. It has not been completed, use it at your own risk.
 
+Please note that CKEditor is a JavaScript editor and as such may work with any web application, regardless of the server side language that the project is using, including Java-based apps. A dedicated "server side integration" is not required to include CKEditor 4 in your application.
+
 ## Getting the code
 
 To use the code you need to clone it into local directory of your choice, using below command:
